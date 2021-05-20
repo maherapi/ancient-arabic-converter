@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer module src="scripts/main.js"></script>
+    <title>العربية القديمة</title>
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <main class="container py-3">
+      <section>
+        <h1 class="text-center py-5 h3">حول أي نص باللغة العربية إلى العربية القديمة</h1>
+        <label for="inputText" class="mb-1">النص قبل التحويل</label>
+        <textarea
+          name="inputText"
+          id="inputText"
+          cols="30"
+          rows="10"
+          class="form-control animated"
+          placeholder="أدخل النص هنا..."
+        ></textarea>
+        <button id="hideBtn" class="btn btn-outline-dark d-block w-100 my-3">أخفِ النص</button>
+        <button id="convertBtn" class="btn btn-dark d-block w-100 my-3">حول النص</button>
+        <label for="outputText" class="mb-1">النص بعد التحويل</label>
+        <textarea name="outputText" id="outputText" cols="30" rows="10" class="form-control" disabled></textarea>
+      </section>
+    </main>
+  </body>
+</html>

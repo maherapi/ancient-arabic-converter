@@ -1,0 +1,21 @@
+{
+  "name": "ancient-arabic",
+  "version": "1.0.0",
+  "description": "A web app to convert normal Arabic text into ancient Arabic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ancient",
+    "Arabic",
+    "Clean",
+    "Arabic",
+    "Text"
+  ],
+  "author": "MHD Maher Azkoul",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}

@@ -1,0 +1,39 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(45deg, rgb(178, 236, 232), rgb(173, 102, 224));
+  background-size: 150%;
+  animation: animated-gradient 10s ease-in-out 0s infinite alternate;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+.animated {
+  transition: 0.5s all ease-in-out;
+}
+
+.hide {
+  transform: scaleY(0);
+}
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 50%;
+  }
+  50% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
